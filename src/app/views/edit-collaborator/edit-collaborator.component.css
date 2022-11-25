@@ -1,0 +1,74 @@
+.full-width {
+    width: 100%;
+}
+
+.double-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.double-width .full-width {
+    width: 48%;
+}
+
+.double-2 .full-width2 {
+    width: 48%;
+}
+
+.double-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-submit {
+    margin-top: 30px;
+    background-color: #6b98f1;
+    color: #ffffff;
+}
+
+.btn-submit:hover {
+    background-color: #587dc8;
+}
+
+.btn-close:hover {
+    background-color: #804141;
+}
+
+.btn-close {
+    margin-top: 30px;
+    background-color: #C45656;
+    color: #ffffff;
+}
+
+.foto {
+    margin-left: 1%;
+    color: rgb(93, 93, 93);
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-back{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color: #517fdc;
+  }
+
+  .upload-photo{
+    width: 100%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border:  1px solid #e3e0e0;
+    
+}
+
+.upload-photo ::-webkit-file-upload-button{
+    display: none;
+    
+}
